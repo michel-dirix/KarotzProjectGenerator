@@ -48,7 +48,7 @@ public class Generator {
 		try {
 		    writer = new BufferedWriter(new OutputStreamWriter(
 		          new FileOutputStream(screen), "utf-8"));
-		    writer.write(Templates.DESCRIPTOR);
+		    writer.write(Templates.SCREEN);
 		} catch (IOException ex) {
 		  // report
 		} finally {
